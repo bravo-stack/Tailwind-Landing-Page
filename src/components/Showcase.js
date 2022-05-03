@@ -11,7 +11,7 @@ function Showcase() {
       }}>
         <div className='p-10 xl:text-8xl lg:text-7xl leading-tight md:leading-snug lg:leading-snug xl:leading-snug md:text-5xl text-4xl lg:text-left md:text-center text-center text-white flex flex-col gap-11 lg:gap-0 xl:gap-0 lg:flex-row xl:flex-row lg:justify-around items-center height-' style={{
           width: "95vw",
-          minHeight: "60vh",
+          minHeight: "65vh",
         }}>
         <div className='xl:w-1/2 lg:w-1/2'>
          Welcome to the New Disposition
