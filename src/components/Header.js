@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-function Header() {
+function Header({navBarOpen, toggleNav}) {
   return (
     <header className='header'>
-        <Navbar />
+        <Navbar navBarOpen={navBarOpen} toggleNav={toggleNav} />
     </header>
   )
 }
