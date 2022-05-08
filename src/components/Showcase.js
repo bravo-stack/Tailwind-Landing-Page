@@ -5,9 +5,8 @@ import Button from './Button'
 
 function Showcase() {
   return (
-      <div className={`rounded-b-3xl border-none ${classes.blue} xl:px-6 xl:pl-12 lg:pl-10 lg:px-4`} style={{
-        marginTop: "-10px",
-        paddingTop: "2rem",
+      <div className={`rounded-b-3xl border-none ${classes.blue} xl:px-6 xl:pl-12 lg:pl-10 lg:px-4 pt-4 md:pt-7 lg:pt-8 xl:pt-9`} style={{
+        marginTop: "-5px",
         paddingBottom: "1rem"
       }}>
         <div className='p-10
@@ -18,7 +17,7 @@ function Showcase() {
         text-center 
         text-white 
         flex flex-col 
-        gap-11 lg:gap-0 xl:gap-0 
+        gap-11 md:gap-16 lg:gap-0 xl:gap-0 
         lg:flex-row xl:flex-row lg:content-between xl:content-between 
         justify-items-start ' 
         style={{
@@ -36,11 +35,11 @@ function Showcase() {
           </div>
           <div className=" flex gap-2 content-between m-auto xl:m-0 lg:m-0 gap-4 md:gap-6 lg:gap-7 xl:gap-7">
             <Button 
-            text="Contact"
+            text="Key Features"
             bgColor="white"
             textColor="rgb(48,24,186)" />
             <Button 
-            text="View More"
+            text="How We Work?"
             bgColor="transparent"
             textColor="white" />
           </div>
