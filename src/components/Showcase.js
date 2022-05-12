@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from "./showcase.module.css"
-import showcaseImg from "./../newproject.png"
+import showcaseImg from "./../assets/newproject.png"
 import Button from './Button'
 
 function Showcase() {
@@ -28,7 +28,7 @@ function Showcase() {
           <div className='leading-normal xl:leading-normal lg:leading-normal md:leading-normal text-2xl font-bold xl:text-5xl lg:text-3xl md:text-3xl'>
             Exclusive Agency For <br className='lg:hidden xl:hidden' />Technology, Providing Solutions
           </div>
-          <div className='text-sm xl:text-xl text-gray-300 font-light xl:my-0 lg:my-2 md:my-5 my-4'>
+          <div className='text-sm xl:text-xl md:text-base text-gray-300 font-light xl:my-0 lg:my-2 md:my-5 my-4'>
             We are Mont, a Creative Design Wheel
             <span className='my-4 block xl:my-7'></span>
             Helping you maximize operations management with digitization
@@ -45,10 +45,10 @@ function Showcase() {
           </div>
         </div>
         <div style={{
-          paddingBottom: "1rem"
+          paddingBottom: "1rem",
         }}>
           <img className='m-auto' src={showcaseImg} alt="" style={{
-            maxWidth: "60%",
+            width: "60%",
             height: "auto"
           }} />
         </div>
