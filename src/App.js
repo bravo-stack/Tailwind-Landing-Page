@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Backdrop from "./components/Backdrop";
 import Header from "./components/Header";
-import Showcase from "./components/Showcase";
+import Home from "./pages/Home";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
 function App() {
   const [navBarOpen, setNavBarOpen] = useState(false)
@@ -13,11 +13,16 @@ function App() {
 
 
   return (
-    <div className>
-      <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
-      {navBarOpen&&<Backdrop />}
-      <Showcase />
-    </div>
+
+    <Router>
+      <div className>
+        <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
+        
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
