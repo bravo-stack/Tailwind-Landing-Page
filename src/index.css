@@ -22,3 +22,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.my-link:hover {
+  color: #ffcd38;
+}
+
+.my-link > a:active {
+  color: #e58800;
+}
