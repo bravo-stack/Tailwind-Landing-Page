@@ -30,3 +30,7 @@ code {
 .my-link > a:active {
   color: #e58800;
 }
+
+.my-box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0,0,0,.07);
+}
