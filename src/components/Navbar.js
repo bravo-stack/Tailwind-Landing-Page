@@ -8,7 +8,7 @@ function Navbar({navBarOpen, toggleNav}) {
 
     return (
         <>
-            <nav className={`my-box-shadow lg:shadow-none relative flex flex-wrap items-center justify-between  ${classes.blueish}`}>
+            <nav className={`my-box-shadow relative flex flex-wrap items-center justify-between  ${classes.blueish}`}>
 
                 <div className="lg:px-12 lg:py-6 w-full flex flex-wrap items-center justify-between">
 
