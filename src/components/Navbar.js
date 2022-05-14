@@ -10,7 +10,7 @@ function Navbar({navBarOpen, toggleNav}) {
         <>
             <nav className={`my-box-shadow lg:shadow-none relative flex flex-wrap items-center justify-between  ${classes.blueish}`}>
 
-                <div className="lg:px-8 lg:py-6 w-full flex flex-wrap items-center justify-between">
+                <div className="lg:px-12 lg:py-6 w-full flex flex-wrap items-center justify-between">
 
                     {/* Logo and button container */}
                     <div className='px-8 lg:px-0 py-7 lg:py-0 w-screen relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start
@@ -34,6 +34,7 @@ function Navbar({navBarOpen, toggleNav}) {
                         <ul className="
                         flex flex-col lg:flex-row
                         gap-5
+                        lg:gap-8
                         list-none lg:ml-auto
                         w-full lg:w-auto">
                             <li className="nav-item 
