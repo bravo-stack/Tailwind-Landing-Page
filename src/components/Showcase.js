@@ -5,7 +5,7 @@ import Button from './Button'
 
 function Showcase() {
   return (
-      <div className={`rounded-b-3xl border-none ${classes.blue} xl:px-6 xl:pl-12 lg:pl-10 lg:px-4 pt-4 md:pt-7 lg:pt-8 xl:pt-9`} style={{
+      <div className={`rounded-b-3xl border-none ${classes.blue} xl:px-6 xl:pl-12 lg:pl-10 lg:px-4 pt-4 md:pt-7 lg:pt-7`} style={{
         marginTop: "-5px",
         paddingBottom: "1rem"
       }}>
