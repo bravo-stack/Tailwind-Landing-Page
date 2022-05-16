@@ -1,6 +1,5 @@
 import Logo from './Logo'
 import { UilApps } from '@iconscout/react-unicons'
-import classes from "./navbar.module.css"
 import { Link } from "react-router-dom"
 import HorizontalLine from '../components/HorizontalLine'
 
@@ -8,7 +7,7 @@ function Navbar({navBarOpen, toggleNav}) {
 
     return (
         <>
-            <nav className={`my-box-shadow relative flex flex-wrap items-center justify-between  ${classes.blueish}`}>
+            <nav className={`my-box-shadow relative flex flex-wrap items-center justify-between  my-bg-blue`}>
 
                 <div className="lg:px-12 lg:py-6 w-full flex flex-wrap items-center justify-between">
 
