@@ -51,3 +51,11 @@ code {
 .my-transition {
   transition: all 400ms ease-in-out;
 }
+
+.my-bg-blue-lite {
+  background-color: var(--primary-color-lite);
+}
+
+.my-bg-blue {
+  background-color: var(--primary-color);
+}
