@@ -25,7 +25,7 @@ code {
 
 :root {
   --primary-color: rgb(48, 24, 186);
-  --primary-color-lite: rgb(110, 88, 237);
+  --primary-color-lite: rgba(159, 144, 248, 0.544);
 }
 
 .my-link:hover {
