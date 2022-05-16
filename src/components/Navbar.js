@@ -2,7 +2,7 @@ import Logo from './Logo'
 import { UilApps } from '@iconscout/react-unicons'
 import classes from "./navbar.module.css"
 import { Link } from "react-router-dom"
-import HorizontalLine from '../HorizontalLine'
+import HorizontalLine from '../components/HorizontalLine'
 
 function Navbar({navBarOpen, toggleNav}) {
 
