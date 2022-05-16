@@ -1,17 +1,16 @@
 import React from 'react'
-import classes from "./showcase.module.css"
 import showcaseImg from "./../assets/showcase2.png"
 import Button from './Button'
 import Wrapper from './Wrapper'
 
 function Showcase() {
   return (
-    <div className={`rounded-b-3xl border-none ${classes.blue}`}>
+    <div className={`rounded-b-3xl border-none my-bg-blue`}>
       <Wrapper>
          <div className='' style={{
             marginTop: "-5px"
           }}>
-            <div className='p-6 lg:p-10
+            <div className=' 
             leading-tight
             md:leading-snug 
             lg:text-left 
