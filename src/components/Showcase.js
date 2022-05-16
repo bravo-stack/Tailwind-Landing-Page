@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from "./showcase.module.css"
-import showcaseImg from "./../assets/newproject.png"
+import showcaseImg from "./../assets/showcase2.png"
 import Button from './Button'
 
 function Showcase() {
@@ -48,7 +48,7 @@ function Showcase() {
           paddingBottom: "1rem",
         }}>
           <img className='m-auto' src={showcaseImg} alt="" style={{
-            width: "60%",
+            width: "100%",
             height: "auto"
           }} />
         </div>
