@@ -2,6 +2,7 @@ import Logo from './Logo'
 import { UilApps } from '@iconscout/react-unicons'
 import { Link } from "react-router-dom"
 import HorizontalLine from '../components/HorizontalLine'
+import {UilMultiply} from "@iconscout/react-unicons"
 
 function Navbar({navBarOpen, toggleNav}) {
 
@@ -18,7 +19,7 @@ function Navbar({navBarOpen, toggleNav}) {
                             <Logo />
                         </Link>
                         <button className="text-white cursor-pointer text-xl leading-none border border-transparent bg-transparent border-solid rounded block lg:hidden outline-none focus:outline-none" type='button' onClick={() => toggleNav()}>
-                            <UilApps />
+                            {navBarOpen?<UilMultiply />:<UilApps />}
                         </button>
                     </div>
 
