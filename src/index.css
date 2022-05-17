@@ -29,14 +29,6 @@ code {
   --primary-color-light: rgb(120, 132, 204);
 }
 
-.my-link:hover {
-  color: #ffcd38;
-}
-
-.my-link > a:active {
-  color: #e58800;
-}
-
 .my-box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0,0,0,.25);
 }
@@ -59,6 +51,10 @@ code {
 
 .my-bg-blue-lite {
   background-color: var(--primary-color-light);
+}
+
+.label-bg {
+  background-color: var(--primary-color-lte);
 }
 
 .my-bg-blue {
