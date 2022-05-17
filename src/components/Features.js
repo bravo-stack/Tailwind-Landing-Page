@@ -13,13 +13,18 @@ function Features() {
 
   return (
     <div className='
-    py-4 
-    lg:py-6 
+    pt-20
+    pb-10
+    md:pt-24
+    md:pb-12
+    lg:pt-24
+    lg:pb-12
     flex 
     flex-col 
     gap-4 
+    md:gap-6
     lg:gap-6'>
-        <Label text="Features" />
+        <Label text="New Features" />
         <div className="
         flex 
         flex-col 
@@ -28,8 +33,10 @@ function Features() {
         md:gap-2 
         md:gap-x-4 
         lg:grid 
-        lg:grid-cols-4 
-        lg:gap-4">
+        lg:grid-cols-3 
+        lg:gap-4
+        xl:grid-cols-4
+        xl:gap-6">
           <Card text={data.firstText} img={multitasking} />
           <Card text={data.secondText} img={infographics} />
           <Card text={data.firstText} img={multitasking} />
