@@ -1,7 +1,4 @@
-import React from 'react'
-import Card from './Card'
-import multitasking from "./../assets/multitasking.png"
-import infographics from "./../assets/Infographics.png"
+import CardGroup from './CardGroup'
 import Label from './Label'
 
 function Features() {
@@ -20,27 +17,7 @@ function Features() {
     md:gap-6
     lg:gap-6'>
         <Label text="New Features" />
-        <div className="
-        flex 
-        flex-col 
-        md:grid 
-        md:grid-cols-2 
-        md:gap-2 
-        md:gap-x-4 
-        lg:grid 
-        lg:grid-cols-3 
-        lg:gap-4
-        xl:grid-cols-4
-        xl:gap-6">
-          <Card img={multitasking} />
-          <Card img={infographics} />
-          <Card img={multitasking} />
-          <Card img={infographics} />
-          <Card img={multitasking} />
-          <Card img={infographics} />
-          <Card img={multitasking} />
-          <Card img={infographics} />
-        </div>
+        <CardGroup />
     </div>
   )
 }
