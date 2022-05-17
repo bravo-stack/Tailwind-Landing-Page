@@ -3,8 +3,8 @@ import React from 'react'
 function Wrapper({children}) {
   return (
     <div>
-        <section className='container p-5 md:p-10 lg:p-10'>
-            <div className='lg:p-6 md:p-6 p-2 pt-6 pb-3'>
+        <section className='container px-5 md:px-10 lg:px-12 xl:px-16'>
+            <div className='lg:px-6 md:px-6 px-2'>
               {children}
             </div>
         </section>
