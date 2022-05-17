@@ -6,11 +6,6 @@ import Label from './Label'
 
 function Features() {
 
-  const data = {
-    firstText: "Accessable features across the globe made easier with just a few click, no more no less. Tasks get assigned efficiently accross all teams; promoting remote workspace",
-    secondText: "Get essential informations mapped out and ready for user consumption. Populating charts for detailed information; with the Infographic section, one can also stay miles ahead"
-  }
-
   return (
     <div className='
     pt-20
@@ -37,14 +32,14 @@ function Features() {
         lg:gap-4
         xl:grid-cols-4
         xl:gap-6">
-          <Card text={data.firstText} img={multitasking} />
-          <Card text={data.secondText} img={infographics} />
-          <Card text={data.firstText} img={multitasking} />
-          <Card text={data.secondText} img={infographics} />
-          <Card text={data.firstText} img={multitasking} />
-          <Card text={data.secondText} img={infographics} />
-          <Card text={data.firstText} img={multitasking} />
-          <Card text={data.secondText} img={infographics} />
+          <Card img={multitasking} />
+          <Card img={infographics} />
+          <Card img={multitasking} />
+          <Card img={infographics} />
+          <Card img={multitasking} />
+          <Card img={infographics} />
+          <Card img={multitasking} />
+          <Card img={infographics} />
         </div>
     </div>
   )
