@@ -39,12 +39,12 @@ function Navbar({navBarOpen, toggleNav}) {
                         w-full lg:w-auto">
                             <li className="nav-item 
                             m-auto ">
-                                <Link to="/about" className=" flex 
+                                <Link to="/about" className= {`flex 
                                 items-center text-sm
                                 md:text-sm lg:text-md xl:text-md  leading-snug
                                 lg:text-white
                                 my-text-primary
-                                 my-link">
+                                `}>
                                     <span className="uppercase">About</span>
                                 </Link>
                             </li>
@@ -54,7 +54,7 @@ function Navbar({navBarOpen, toggleNav}) {
                                 <Link to="/services" className=" flex  items-center text-sm 
                                 md:text-sm lg:text-md 
                                 lg:text-white
-                                xl:text-md leading-snug my-text-primary my-link">
+                                xl:text-md leading-snug my-text-primary">
                                     <span className="uppercase">Services</span>
                                 </Link>
                             </li>
@@ -64,7 +64,7 @@ function Navbar({navBarOpen, toggleNav}) {
                                 <Link to="contact" className=" flex items-center text-sm 
                                 md:text-sm lg:text-md xl:text-md 
                                 lg:text-white
-                                leading-snug my-text-primary my-link">
+                                leading-snug my-text-primary">
                                     <span className="uppercase ">Contact Us</span>
                                 </Link>
                             </li>
