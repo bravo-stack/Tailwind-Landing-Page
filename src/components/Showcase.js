@@ -7,9 +7,7 @@ function Showcase() {
   return (
     <div className={`rounded-b-3xl border-none my-bg-blue`}>
       <Wrapper>
-         <div className='' style={{
-            marginTop: "-5px"
-          }}>
+         <div>
             <div className=' 
             leading-tight
             md:leading-snug 
