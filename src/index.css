@@ -25,7 +25,8 @@ code {
 
 :root {
   --primary-color: rgb(48, 24, 186);
-  --primary-color-lite: rgba(159, 144, 248, 0.544);
+  --primary-color-lte: rgba(159, 144, 248, 0.544);
+  --primary-color-light: rgb(120, 132, 204);
 }
 
 .my-link:hover {
@@ -45,11 +46,11 @@ code {
 }
 
 .my-text-primary-lite {
-  color: var(--primary-color-lite)
+  color: var(--primary-color-light)
 }
 
 .my-border-b {
-  border: .25px solid var(--primary-color-lite);
+  border: .25px solid var(--primary-color-lte);
 }
 
 .my-transition {
@@ -57,9 +58,21 @@ code {
 }
 
 .my-bg-blue-lite {
-  background-color: var(--primary-color-lite);
+  background-color: var(--primary-color-light);
 }
 
 .my-bg-blue {
   background-color: var(--primary-color);
+}
+
+.my-view-more:hover {
+  text-shadow: 0px 0px .65px var(--primary-color);
+}
+
+.my-view-more:hover .card-icon {
+  transform: translateX(.5rem);
+}
+
+.card-header:hover {
+  color: var(--primary-color);
 }
