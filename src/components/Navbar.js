@@ -10,10 +10,10 @@ function Navbar({navBarOpen, toggleNav}) {
         <>
             <nav className={`my-box-shadow relative flex flex-wrap items-center justify-between  my-bg-blue`}>
 
-                <div className="lg:px-12 lg:py-6 w-full flex flex-wrap items-center justify-between">
+                <div className="lg:px-16 xl:px-20 lg:py-6 w-full flex flex-wrap items-center justify-between">
 
                     {/* Logo and button container */}
-                    <div className='px-8 lg:px-0 py-7 lg:py-0 w-screen relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start
+                    <div className='px-9 md:px-16 lg:px-0 py-7 lg:py-0 w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start
                     md:flex-row-reverse' >
                         <Link to="/" className="text-xl md:text-2xl lg:text-3xl font-bold  inline-block  whitespace-nowrap text-white ">
                             <Logo />
