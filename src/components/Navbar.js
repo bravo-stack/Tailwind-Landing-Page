@@ -1,12 +1,10 @@
 import Logo from './Logo'
 import { UilApps, UilMultiply } from '@iconscout/react-unicons'
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import HorizontalLine from '../components/HorizontalLine'
+import MyNav from './MyNav';
 
 function Navbar({navBarOpen, toggleNav}) {
-
-    // A function that sets the style for an active navigation link, indicating what page the user's currently on
-    const activeLinkStyle = ({isActive}) => ({borderBottom: isActive? "2px solid #ffe418":""});
 
     // A function that toggles the navigation bar, when a user clicks on a navlink that is meant to navigate them to another page
     const closeNavBar = () => (navBarOpen===true?toggleNav():"");
@@ -47,55 +45,27 @@ function Navbar({navBarOpen, toggleNav}) {
                         w-full lg:w-auto">
                             <li className="nav-item 
                             m-auto ">
-                                <NavLink to="/about" className= {` navlink-hover
-                                flex 
-                                items-center text-sm
-                                md:text-sm lg:text-md xl:text-md  leading-snug
-                                lg:text-white
-                                my-text-primary
-                                `} 
-                                style={activeLinkStyle}>
-                                    <span 
-                                    className="uppercase" 
-                                    onClick={() => closeNavBar()}>
-                                        About
-                                    </span>
-                                </NavLink>
+                                <MyNav 
+                                to="/about" 
+                                text="About" 
+                                toggleNav={toggleNav} navBarState={navBarOpen} />
                             </li>
                             <HorizontalLine />
                             <li className="nav-item
                             m-auto">
-                                <NavLink to="/services" className="navlink-hover
-                                flex  items-center text-sm 
-                                md:text-sm lg:text-md 
-                                lg:text-white
-                                xl:text-md leading-snug my-text-primary"
-                                style={activeLinkStyle}>
-                                    <span 
-                                    className="uppercase" 
-                                    onClick={() => closeNavBar()}>
-                                        Services
-                                    </span>
-                                </NavLink>
+                                <MyNav 
+                                to="/services" 
+                                text="Services" 
+                                toggleNav={toggleNav} navBarState={navBarOpen} />
                             </li>
                             <HorizontalLine />
                             <li className="nav-item 
                             m-auto">
-                                <NavLink to="/contact" className="
-                                navlink-hover
-                                flex 
-                                items-center text-sm 
-                                md:text-sm lg:text-md xl:text-md 
-                                lg:text-white
-                                leading-snug my-text-primary"
-                                style={activeLinkStyle}>
-                                    <span 
-                                    className="uppercase " onClick={() => closeNavBar()}>
-                                        Contact Us
-                                    </span>
-                                </NavLink>
+                                <MyNav 
+                                to="/contact" 
+                                text="Contact Us" 
+                                toggleNav={toggleNav} navBarState={navBarOpen} />
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
