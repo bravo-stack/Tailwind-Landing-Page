@@ -27,6 +27,7 @@ code {
   --primary-color: rgb(48, 24, 186);
   --primary-color-lte: rgba(159, 144, 248, 0.544);
   --primary-color-light: rgb(120, 132, 204);
+  --sec-color: #ffe418
 }
 
 .my-box-shadow {
@@ -71,4 +72,16 @@ code {
 
 .card-header:hover {
   color: var(--primary-color);
+}
+
+.my-active-link {
+  border-bottom: 2px solid var(--sec-color);
+}
+
+.navlink-hover {
+  transition: all .2s ease-in;
+}
+
+.navlink-hover:hover {
+  color: var(--primary-color-light);
 }
