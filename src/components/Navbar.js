@@ -5,7 +5,10 @@ import HorizontalLine from '../components/HorizontalLine'
 
 function Navbar({navBarOpen, toggleNav}) {
 
+    // A function that sets the style for an active navigation link, indicating what page the user's currently on
     const activeLinkStyle = ({isActive}) => ({borderBottom: isActive? "2px solid #ffe418":""});
+
+    // A function that toggles the navigation bar, when a user clicks on a navlink that is meant to navigate them to another page
     const closeNavBar = () => (navBarOpen===true?toggleNav():"");
 
 
