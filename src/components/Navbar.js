@@ -1,10 +1,12 @@
 import Logo from './Logo'
-import { UilApps } from '@iconscout/react-unicons'
-import { Link } from "react-router-dom"
+import { UilApps, UilMultiply } from '@iconscout/react-unicons'
+import { Link, NavLink } from "react-router-dom"
 import HorizontalLine from '../components/HorizontalLine'
-import {UilMultiply} from "@iconscout/react-unicons"
 
 function Navbar({navBarOpen, toggleNav}) {
+
+    const activeLinkStyle = ({isActive}) => ({borderBottom: isActive? "2px solid #ffe418":""})
+
 
     return (
         <>
@@ -39,34 +41,41 @@ function Navbar({navBarOpen, toggleNav}) {
                         w-full lg:w-auto">
                             <li className="nav-item 
                             m-auto ">
-                                <Link to="/about" className= {`flex 
+                                <NavLink to="/about" className= {` navlink-hover
+                                flex 
                                 items-center text-sm
                                 md:text-sm lg:text-md xl:text-md  leading-snug
                                 lg:text-white
                                 my-text-primary
-                                `}>
+                                `} style={activeLinkStyle}>
                                     <span className="uppercase">About</span>
-                                </Link>
+                                </NavLink>
                             </li>
                             <HorizontalLine />
                             <li className="nav-item
                             m-auto">
-                                <Link to="/services" className=" flex  items-center text-sm 
+                                <NavLink to="/services" className="navlink-hover
+                                flex  items-center text-sm 
                                 md:text-sm lg:text-md 
                                 lg:text-white
-                                xl:text-md leading-snug my-text-primary">
+                                xl:text-md leading-snug my-text-primary"
+                                style={activeLinkStyle}>
                                     <span className="uppercase">Services</span>
-                                </Link>
+                                </NavLink>
                             </li>
                             <HorizontalLine />
                             <li className="nav-item 
                             m-auto">
-                                <Link to="contact" className=" flex items-center text-sm 
+                                <NavLink to="contact" className="
+                                navlink-hover
+                                flex 
+                                items-center text-sm 
                                 md:text-sm lg:text-md xl:text-md 
                                 lg:text-white
-                                leading-snug my-text-primary">
+                                leading-snug my-text-primary"
+                                style={activeLinkStyle}>
                                     <span className="uppercase ">Contact Us</span>
-                                </Link>
+                                </NavLink>
                             </li>
                             
                         </ul>
