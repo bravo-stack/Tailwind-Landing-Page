@@ -8,7 +8,7 @@ function CardText({text}) {
         <div className={` 
         flex flex-col justify-items-center 
         p-6 lg:p-6 text-left text-sm md:text-lg`}>
-            <p className='font-bold text-lg md:text-lg lg:text-xl pb-1 card-header'>
+            <p className='my-transition font-bold text-lg md:text-lg lg:text-xl pb-1 card-header'>
                 Illustration
             </p>
             <p className='text-sm text-gray-400 mb-6'>
