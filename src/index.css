@@ -50,16 +50,20 @@ code {
   transition: all 400ms ease-in-out;
 }
 
-.my-bg-blue-lite {
-  background-color: var(--primary-color-light);
-}
-
 .label-bg {
   background-color: var(--primary-color-lte);
 }
 
 .my-bg-blue {
   background-color: var(--primary-color);
+}
+
+.my-bg-blue-lite {
+  background-color: var(--primary-color-light);
+}
+
+.my-bg-sec {
+  background-color: #e3d5fc;
 }
 
 .my-view-more:hover {
