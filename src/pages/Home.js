@@ -2,6 +2,7 @@ import React from 'react'
 import Showcase from '../components/Showcase'
 import Wrapper from '../components/Wrapper'
 import Features from '../components/Features'
+import GetStarted from '../GetStarted'
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         <Wrapper>
           <Features />
         </Wrapper>
+        <GetStarted />
     </div>
   )
 }
