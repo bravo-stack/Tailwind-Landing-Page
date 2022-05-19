@@ -89,3 +89,7 @@ code {
 .navlink-hover:hover {
   color: var(--primary-color-light);
 }
+
+.getstarted-rounded {
+  border-radius: 50px;
+}
