@@ -1,13 +1,10 @@
 import { NavLink } from "react-router-dom"
 
-function MyNav({to, text, toggleNav, navBarState}) {
+function MyNav({to, text, closeNavBar}) {
 
 
     // A function that sets the style for an active navigation link, indicating what page the user's currently on
     const activeLinkStyle = ({isActive}) => ({borderBottom: isActive? "2px solid #ffe418":""});
-
-    // A function that toggles the navigation bar, when a user clicks on a navlink that is meant to navigate them to another page
-    const closeNavBar = () => (navBarState===true?toggleNav():"");
 
     return (
         <div>

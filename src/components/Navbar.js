@@ -48,7 +48,7 @@ function Navbar({navBarOpen, toggleNav}) {
                                 <MyNav 
                                 to="/about" 
                                 text="About" 
-                                toggleNav={toggleNav} navBarState={navBarOpen} />
+                                closeNavBar={closeNavBar} />
                             </li>
                             <HorizontalLine />
                             <li className="nav-item
@@ -56,7 +56,7 @@ function Navbar({navBarOpen, toggleNav}) {
                                 <MyNav 
                                 to="/services" 
                                 text="Services" 
-                                toggleNav={toggleNav} navBarState={navBarOpen} />
+                                closeNavBar={closeNavBar} />
                             </li>
                             <HorizontalLine />
                             <li className="nav-item 
@@ -64,7 +64,7 @@ function Navbar({navBarOpen, toggleNav}) {
                                 <MyNav 
                                 to="/contact" 
                                 text="Contact Us" 
-                                toggleNav={toggleNav} navBarState={navBarOpen} />
+                                closeNavBar={closeNavBar} />
                             </li>
                         </ul>
                     </div>
