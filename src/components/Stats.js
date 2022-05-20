@@ -13,11 +13,11 @@ function Stats() {
             </div>
 
             {/* entire rating container */}
-            <div className='flex flex-col xl:flex-row mb-16 mt-9'>
+            <div className='flex flex-col xl:flex-row mb-16 mt-12'>
 
                 {/* "trusted by customer" container */}
                 <div className='xl:w-1/3 lg:my-auto'>
-                    <p className='my-text-primary text-center xl:text-left text-4xl font-medium md:font-semibold lg:font-bold mb-6'>
+                    <p className='my-text-primary text-center xl:text-left text-4xl font-semibold md:font-semibold lg:font-bold mb-6'>
                         Trusted by 35,000+ happy customers.
                     </p>
                     <p className='text-gray-600 text-center lg:text-justify xl:text-justify'>
