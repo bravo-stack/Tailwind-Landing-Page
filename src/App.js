@@ -18,7 +18,7 @@ function App() {
   return (
 
     <Router>
-      <div className>
+      <div className="w-full">
         <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
         
         <Routes>
