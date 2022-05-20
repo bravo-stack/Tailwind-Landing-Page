@@ -20,13 +20,13 @@ function GetAccessCard() {
                     text-xl 
                     lg:text-xl 
                     leading-none 
-                    px-4 
+                    px-6 
                     py-5 
                     lg:px-8 
                     md:px-6 
                     lg:px-6 
                     border 
-                    rounded-lg l
+                    rounded-2xl l
                     g:rounded-2xl 
                     border-solid 
                     border-1 
