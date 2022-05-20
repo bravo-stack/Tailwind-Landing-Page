@@ -1,6 +1,6 @@
 import React from 'react'
-import GrayLine from './GrayLine'
 import Stats from './Stats'
+import Testimonial from './Testimonial'
 import Wrapper from './Wrapper'
 
 function CustomerStats() {
@@ -8,8 +8,8 @@ function CustomerStats() {
     <div>
       <Wrapper>
         <Stats />
-      </Wrapper>
-      <GrayLine />
+      </Wrapper>      
+      <Testimonial />
     </div>
   )
 }
