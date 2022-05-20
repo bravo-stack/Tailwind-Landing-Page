@@ -1,6 +1,6 @@
-import working from "./assets/content-man-image.png"
-import Label from "./components/Label"
-import Wrapper from "./components/Wrapper"
+import working from "./../assets/content-man-image.png"
+import Label from "./../components/Label"
+import Wrapper from "./../components/Wrapper"
 import GetAccessCard from "./GetAccessCard"
 
 function GetStarted() {
