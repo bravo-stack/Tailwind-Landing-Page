@@ -24,7 +24,7 @@ code {
 }
 
 :root {
-  --primary-color: rgb(48, 24, 186);
+  --primary-color: rgb(47, 23, 186);
   --primary-color-lte: rgba(159, 144, 248, 0.544);
   --primary-color-light: rgb(120, 132, 204);
   --sec-color: #ffe418
@@ -66,6 +66,14 @@ code {
   background-color: #e3d5fc;
 }
 
+.my-bg-blue2 {
+  background-color: rgba(47, 23, 186, 0.958);
+}
+
+.my-bg-blue3 {
+  background-color: rgb(24, 11, 100);
+}
+
 .my-view-more:hover {
   text-shadow: 0px 0px .65px var(--primary-color);
 }
@@ -92,4 +100,8 @@ code {
 
 .getstarted-rounded {
   border-radius: 40px;
+}
+
+.statcard-size {
+  max-width: 400px;
 }

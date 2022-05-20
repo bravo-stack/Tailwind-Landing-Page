@@ -3,6 +3,7 @@ import Showcase from '../components/Showcase'
 import Wrapper from '../components/Wrapper'
 import Features from '../components/Features'
 import GetStarted from '../components/GetStarted'
+import CustomerStats from '../components/CustomerStats'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
           <Features />
         </Wrapper>
         <GetStarted />
+        <CustomerStats />
     </div>
   )
 }
