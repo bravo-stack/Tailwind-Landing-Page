@@ -7,7 +7,7 @@ function GetAccessCard() {
                 <p className="text-3xl lg:text-5xl font-bold my-text-primary">
                     Get access to your daily cost.
                 </p>
-                <p className='text-gray-600 lg:leading-loose'>
+                <p className='text-gray-600 lg:leading-loose text-base lg:text-lg'>
                     With lots of unique blocks, you can easily build a page without coding. Build your next website within few minutes.
                 </p>
                 <div>
