@@ -4,6 +4,7 @@ import Wrapper from '../components/Wrapper'
 import Features from '../components/Features'
 import GetStarted from '../components/GetStarted'
 import CustomerStats from '../components/CustomerStats'
+import Demo from '../components/Demo'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         </Wrapper>
         <GetStarted />
         <CustomerStats />
+        <Demo />
     </div>
   )
 }
