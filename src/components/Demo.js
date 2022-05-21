@@ -5,7 +5,7 @@ import rocket from "./../assets/rocket-image.png"
 
 function Demo() {
     return (
-        <div className="my-bg-blue3 pt-16  pb-12 xl:pb-0">
+        <div className="my-bg-blue3 pt-16  pb-12 lg:pb-0">
 
             {/* Wrapper component */}
             <Wrapper>
@@ -14,12 +14,12 @@ function Demo() {
                 <div className="flex">
 
                     {/* SVG Flower Icon */}
-                    <div className="animate-pulse w-32 relative left-10 bottom-0 xl:inline-flex flex-col-reverse hidden">
+                    <div className="animate-pulse lg:w-20 xl:w-32 relative lg:left-8 xl:left-10 bottom-0 lg:inline-flex flex-col-reverse hidden">
                         <img src={flower} alt="flower img" />
                     </div>
 
                     {/* Contact Form Container*/}
-                    <div className="md:w-2/3 lg:w-2/3 xl:w-2/5 md:mx-auto xl:pb-16">
+                    <div className="md:w-2/3 lg:w-3/5 xl:w-2/5 md:mx-auto lg:pb-16">
                         <div className='text-white'>
                             <p className="text-4xl font-bold text-center mb-8">
                                 Get a Demo
@@ -36,7 +36,7 @@ function Demo() {
                     </div>
 
                     {/* SVG Flower Icon */}
-                    <div className="animate-bounce delay-100 w-20 relative right-16 bottom-32 xl:inline-flex flex-col-reverse hidden">
+                    <div className="animate-bounce delay-100 lg:w-12 xl:w-20 relative lg:right-8 xl:right-16 bottom-32 lg:inline-flex flex-col-reverse hidden">
                         <img src={rocket} alt="flower img" />
                     </div>
                     

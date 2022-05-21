@@ -14,7 +14,7 @@ function DemoForm() {
                 </label>
                 
                 {/* Button */}
-                <input type="button" value="Submit" className='text-white text-bold cursor-pointer text-xl my-bg-blue border-transparent leading-none p-7 md:px-6 lg:px-6 border rounded-xl border-solid border-1 text-sm block hover:scale-105'
+                <input type="button" value="Submit" className='text-white text-bold cursor-pointer my-bg-blue border-transparent leading-none p-7 border rounded-xl block hover:scale-105'
                 style={{
                 transition: "all .4s ease-in-out"
                 }} />
