@@ -1,4 +1,4 @@
-import DemoForm from "../DemoForm"
+import DemoForm from "./DemoForm"
 import Wrapper from "./Wrapper"
 import flower from "./../assets/flower-image.png"
 import rocket from "./../assets/rocket-image.png"
