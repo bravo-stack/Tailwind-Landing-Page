@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import About from "./pages/About";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs"
+import BackDrop from "./components/BackDrop";
 
 function App() {
   const [navBarOpen, setNavBarOpen] = useState(false)
@@ -18,7 +19,8 @@ function App() {
   return (
 
     <Router>
-      <div className="w-full">
+      <div className="w-full relative">
+        <BackDrop />
         <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
         
         <Routes>
