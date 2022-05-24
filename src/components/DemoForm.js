@@ -1,8 +1,8 @@
 
-function DemoForm() {
+function DemoForm({submit}) {
     return (
         <div>
-            <form className='flex flex-col gap-8 text-lg'>
+            <form className='flex flex-col gap-8 text-lg' onSubmit={submit}>
                 <label htmlFor="name" className='flex flex-col gap-4'>
                     <span className="font-bold text-white">Your Name</span>
                     <input placeholder="Type your name" className="block w-full rounded-xl p-5" type="text" name="name" id="name" />
@@ -14,7 +14,7 @@ function DemoForm() {
                 </label>
                 
                 {/* Button */}
-                <input type="button" value="Submit" className='text-white text-bold cursor-pointer my-bg-blue border-transparent leading-none p-7 border rounded-xl block hover:scale-105'
+                <input type="submit" value="Submit" className='text-white text-bold cursor-pointer my-bg-blue border-transparent leading-none p-7 border rounded-xl block hover:scale-105'
                 style={{
                 transition: "all .4s ease-in-out"
                 }} />
