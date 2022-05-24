@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import About from "./pages/About";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs"
-import BackDrop from "./components/BackDrop";
 
 function App() {
   const [navBarOpen, setNavBarOpen] = useState(false)
