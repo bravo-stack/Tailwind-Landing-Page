@@ -5,6 +5,7 @@ import Features from '../components/Features'
 import GetStarted from '../components/GetStarted'
 import CustomerStats from '../components/CustomerStats'
 import Demo from '../components/Demo'
+import BackDrop from '../components/BackDrop'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <GetStarted />
         <CustomerStats />
         <Demo />
+        <BackDrop />
     </div>
   )
 }

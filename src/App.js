@@ -20,7 +20,7 @@ function App() {
 
     <Router>
       <div className="w-full relative">
-        <BackDrop />
+        
         <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
         
         <Routes>
