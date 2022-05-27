@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import About from "./pages/About";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs"
+import Footer from "./components/Footer";
 
 function App() {
   const [navBarOpen, setNavBarOpen] = useState(false)
@@ -15,22 +16,24 @@ function App() {
   }
 
 
-  return (
+    return (
 
-    <Router>
-      <div className="w-full relative">
-        
-        <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
-        
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<ContactUs />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+      <Router>
+        <div className="w-full relative">
+          
+          <Header navBarOpen={navBarOpen} toggleNav={toggleNav} />
+          
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<ContactUs />} />
+          </Routes>
+
+          <Footer />
+        </div>
+      </Router>
+    );
 }
 
 export default App;
