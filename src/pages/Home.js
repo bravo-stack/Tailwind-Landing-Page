@@ -6,18 +6,11 @@ import GetStarted from '../components/GetStarted'
 import CustomerStats from '../components/CustomerStats'
 import Demo from '../components/Demo'
 import BackDrop from '../components/BackDrop'
+import useCallSuccess from '../hooks/useCallSuccess'
 
 function Home() {
 
-  const [isSuccessful, setIsSuccessful] = useState(false)
-
-  const onSubmitBtn = (e) => {
-    e.preventDefault()
-    setTimeout(() => {
-      setIsSuccessful(false);      
-    }, 4000);
-    setIsSuccessful(true)
-  }
+  const [isSuccessful, handleForm] = useCallSuccess()
 
   return (
     <div>
@@ -27,7 +20,7 @@ function Home() {
         </Wrapper>
         <GetStarted />
         <CustomerStats />
-        <Demo submit={onSubmitBtn} />
+        <Demo submit={handleForm} />
         {isSuccessful&&<BackDrop />}
     </div>
   )
