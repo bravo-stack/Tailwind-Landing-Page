@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Showcase from '../components/Showcase'
 import Wrapper from '../components/Wrapper'
 import Features from '../components/Features'
@@ -10,7 +9,7 @@ import useCallSuccess from '../hooks/useCallSuccess'
 
 function Home() {
 
-  const [isSuccessful, handleForm] = useCallSuccess()
+  const [isSuccessful,] = useCallSuccess()
 
   return (
     <div>
@@ -20,7 +19,7 @@ function Home() {
         </Wrapper>
         <GetStarted />
         <CustomerStats />
-        <Demo submit={handleForm} />
+        <Demo />
         {isSuccessful&&<BackDrop />}
     </div>
   )
