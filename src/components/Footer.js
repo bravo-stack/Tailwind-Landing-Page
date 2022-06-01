@@ -5,7 +5,7 @@ import Newsletter from './Newsletter'
 
 function Footer() {
 
-    const [isSuccessful, handleForm] = useCallSuccess
+    const [isSuccessful, handleForm] = useCallSuccess()
 
     return (
         <>
