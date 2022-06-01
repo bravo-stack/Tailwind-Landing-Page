@@ -1,18 +1,20 @@
-import { useState } from 'react'
+import { successful, notSuccessful } from "./../features/success/successSlice"
+import { useSelector, useDispatch } from "react-redux"
 
 function useCallSuccess() {
   
-    const [isSuccessful, setStatus] = useState(false)
+    const successStatus = useSelector((state)=> state.success.value)
+    const dispatch = useDispatch()
 
     function handleForm(e) {
         e.preventDefault();
         setTimeout(() => {
-            setStatus(false)
+            dispatch(notSuccessful())
         }, 4000);
-        setStatus(true)
+        dispatch(successful())
     }
 
-    return [isSuccessful, handleForm]
+    return [successStatus, handleForm]
     
 
 }
