@@ -3,7 +3,7 @@ import Wrapper from "./Wrapper"
 import flower from "./../assets/flower-image.png"
 import rocket from "./../assets/rocket-image.png"
 
-function Demo({submit}) {
+function Demo() {
     return (
         <div className="my-bg-blue3 pt-16  pb-12 lg:pb-0">
 
@@ -31,7 +31,7 @@ function Demo({submit}) {
 
                         {/* DemoForm Component */}
                         <div className="mt-10">
-                            <DemoForm submit={submit} />
+                            <DemoForm />
                         </div>
                     </div>
 

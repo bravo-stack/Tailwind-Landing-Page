@@ -1,8 +1,12 @@
+import useCallSuccess from "../hooks/useCallSuccess"
 
-function DemoForm({submit}) {
+function DemoForm() {
+    const [,handleForm] = useCallSuccess()
+
+
     return (
         <div>
-            <form className='flex flex-col gap-8 text-lg' onSubmit={submit}>
+            <form className='flex flex-col gap-8 text-lg' onSubmit={handleForm}>
                 <label htmlFor="name" className='flex flex-col gap-4'>
                     <span className="font-bold text-white">Your Name</span>
                     <input placeholder="Type your name" className="block w-full rounded-xl p-5" type="text" name="name" id="name" />
