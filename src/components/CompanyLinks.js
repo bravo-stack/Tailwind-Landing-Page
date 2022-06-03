@@ -6,7 +6,7 @@ function CompanyLinks() {
   return (
     <div className='flex flex-col gap-8'>
         <FooterNote text="Company" />
-        <ul className='flex flex-col gap-3 text-sm text-gray-600 font-bold'>
+        <ul className='flex flex-col gap-5 text-sm text-gray-600 font-bold'>
             <li>
                 <NavLink to="about">About us</NavLink>
             </li>
