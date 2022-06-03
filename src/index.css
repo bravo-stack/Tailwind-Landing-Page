@@ -28,6 +28,7 @@ code {
   --primary-color: rgb(47, 23, 186);
   --primary-color-lte: rgba(159, 144, 248, 0.544);
   --primary-color-light: rgb(120, 132, 204);
+  --primary-color-lightr: rgba(47, 23, 186, 0.184);
   --sec-color: #ffe418
 }
 
@@ -61,6 +62,10 @@ code {
 
 .my-bg-blue-lite {
   background-color: var(--primary-color-light);
+}
+
+.my-bg-blue-liter {
+  background-color: var(--primary-color-lightr);
 }
 
 .my-bg-sec {
