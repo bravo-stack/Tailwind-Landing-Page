@@ -13,7 +13,14 @@ function Footer() {
         <>
             <Wrapper>
                 {isSuccessful&&<BackDrop />}
-                <div className='w-full py-12 flex flex-col gap-10'>
+                <div className='w-full py-12 xl:pt-24 xl:pb-20 
+                content-between
+                flex 
+                flex-col
+                lg:flex-row-reverse 
+                lg:gap-32
+                xl:gap-48
+                gap-16'>
 
                     <Newsletter submit={handleForm} />
                     <FooterLinks />
