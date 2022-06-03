@@ -1,30 +1,44 @@
+import FooterNote from "./FooterNote"
 
 function Newsletter({submit}) {
     
     return (
         // container
-        <div className='bg-white' style={{width: "300px"}}>
+        <div className='bg-white w-full lg:w-auto flex flex-col gap-7'>
+            
+            <FooterNote text="Newsletter" />
 
             {/* our form */}
-            <form className='flex flex-col gap-8 text-lg' onSubmit={submit}>
+            <form className='flex flex-col gap-8 text-lg my-bg-blue-liter p-6 rounded-2xl' onSubmit={submit}>
 
                     {/* first lable which serves as a container here too */}
-                    <label htmlFor="name" className='my-bg-blue-lite'>
+                    <label htmlFor="name" className='flex flex-col gap-6'>
 
                         {/* label text */}
-                        <span className="font-bold">Your Name</span>
+                        <span className="font-bold text-base">Get monthly update in your inbox</span>
 
                         {/* input field and submit btn container */}
-                        <div className="flex p-3 bg-white"  style={{border: "3px solid red"}}>
+                        <div className="flex flex-col gap-3 md:flex-row lg:flex-row p-0 md:p-2 lg:p-2
+                        bg-transparent
+                        rounded-3xl md:bg-white lg:bg-white">
                             {/* email input */}
-                            <input placeholder="Type your name" className="w-full rounded-xl p-5" type="text" name="name" id="name" />
+                            <input placeholder="Enter your email" className="w-full rounded-2xl p-5" type="email" name="name" id="name" />
 
                             {/* Our submit button */}
-                            <input type="submit" value="Submit" className='bg-orange-500 text-white text-bold cursor-pointer border-transparent leading-none px-6 border rounded-3xl hover:scale-105'
+                            <input type="submit" value="Subscribe" className='
+                            my-bg-blue 
+                            text-white font-bold cursor-pointer border-transparent leading-none 
+                            px-6 py-5 
+                            border 
+                            w-2/4 
+                            rounded-2xl hover:scale-105'
                             style={{
                             transition: "all .4s ease-in-out"
                             }} />
                         </div>
+                        <p className="text-gray-500 text-sm">
+                            We won't spam you at all!
+                        </p>
                     </label>
                 </form>
         </div>
