@@ -2,7 +2,7 @@
 function FooterNote({text}) {
   return (
     <>
-        <span className="text-gray-600 font-bold">{text}</span>
+        <span className="text-gray-400 font-bold">{text}</span>
     </>
   )
 }
