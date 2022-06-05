@@ -1,12 +1,43 @@
-import React from 'react'
+import { useEffect, useState } from 'react'
 import Card from './Card'
-import multitasking from "./../assets/multitasking.png"
-import infographics from "./../assets/Infographics.png"
+
+// Axios Package
+import axios from "axios"
 
 function CardGroup() {
+  const [features, setFeatures] = useState([])
+
+  // Base URL
+  const baseURL = "json/features.json"
+
+
+  // fetching all features using axios
+  useEffect(() => {
+    axios.get(baseURL).then(response => {
+
+      // convertin the features object to array
+      const obj = response.data    
+      const arrTemp = []
+
+      // loops through the obj object using it's index(key)
+      for (const key in obj.features ){
+        const feature = {
+          id: key,
+          ...obj.features[key]
+        }
+
+        arrTemp.push(feature)
+      }
+      setFeatures(arrTemp)
+    }).catch(error => {
+      // Prints the error out to the console
+      console.log(error.message, error.code)
+    })
+  }, [])
+
   return (
     <div>
-        <div className="
+        <ul className="
         flex 
         flex-col 
         md:grid 
@@ -18,15 +49,8 @@ function CardGroup() {
         lg:gap-4
         xl:grid-cols-4
         xl:gap-6">
-          <Card img={multitasking} />
-          <Card img={infographics} />
-          <Card img={multitasking} />
-          <Card img={infographics} />
-          <Card img={multitasking} />
-          <Card img={infographics} />
-          <Card img={multitasking} />
-          <Card img={infographics} />
-        </div>
+          {features.map((feature, i)=>(<Card key={feature.id} image={feature.image} name={feature.name} title={feature.title} />))}
+        </ul>
     </div>
   )
 }
