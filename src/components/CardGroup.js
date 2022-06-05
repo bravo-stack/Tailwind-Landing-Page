@@ -1,9 +1,31 @@
-import React from 'react'
+import { useEffect } from 'react'
 import Card from './Card'
 import multitasking from "./../assets/multitasking.png"
 import infographics from "./../assets/Infographics.png"
 
+// Axios Package
+import axios from "axios"
+
 function CardGroup() {
+
+
+  // Base URL
+  const baseURL = "./../json/features.json"
+
+  // fetching all features using axios
+  useEffect(() => {
+    axios.get(baseURL).then(response => {
+      console.log(response.data)
+    }).catch(error => {
+      console.log(error.message, error.code)
+    })
+  }, [])
+
+  // function that fetches data with axios.get
+    
+
+
+
   return (
     <div>
         <div className="
