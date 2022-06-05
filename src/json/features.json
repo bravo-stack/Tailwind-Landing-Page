@@ -1,0 +1,44 @@
+{
+    "features": [
+        {
+            "name": "Distributed Team",
+            "title": "Assign Tasks Effectively without missing out on deadlines.",
+            "image": "https://hygger.io/guides/wp-content/uploads/2021/04/distributed-teams.jpg"
+        },
+        {
+            "name": "Quality Assurance",
+            "title": "Strict codebase review for bugs.",
+            "image": "https://www.linovhr.com/wp-content/uploads/2020/06/quality-assurance-1.jpg"
+        },
+        {
+            "name": "Business Analysis",
+            "title": "provide a supportive environment in which they can work closely with clients.",
+            "image": "https://static.vecteezy.com/system/resources/previews/001/933/773/non_2x/business-analysis-financial-concept-with-characters-vector.jpg"
+        },
+        {
+            "name": "Business Development",
+            "title": "We'll help acquire all types of Licenses & Permits for your business to run seamlessly.",
+            "image": "https://blog.usetada.com/hubfs/Penerapan%20sales%20incentive%20program%20dalam%20strategi%20marketing.jpg"
+        },
+        {
+            "name": "HR Solutions",
+            "title": "We bring success with our HR Recruitment and Payroll in order to give a complete solution to your business.",
+            "image": "https://blog.vantagecircle.com/content/images/2020/07/critical-human-resources.png"
+        },
+        {
+            "name": "IT consulting",
+            "title": "Our 'customer first' philosophy ensures that we provide our clients with the best IT services and solutions",
+            "image": "https://iconicit.com/wp-content/uploads/img-technology-advice.png"
+        },
+        {
+            "name": "UI/UX Consulting",
+            "title": "Bring the best User Interface and Experience concept to you for less to nothing",
+            "image": "https://cdn.dribbble.com/users/1483413/screenshots/12094776/media/4ec350528da75c32e73902088d910ce7.png?compress=1&resize=400x300&vertical=top"
+        },
+        {
+            "name": "Scalable Softwares",
+            "title": "With our premium SaaS, our client gets to benefit from our rich suite of software solutions.",
+            "image": "https://www.consulteer.com/wp-content/uploads/2021/01/app-development-illustration_52683-47931.jpg"
+        }
+    ]
+}
