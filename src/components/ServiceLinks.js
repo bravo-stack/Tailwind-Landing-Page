@@ -5,7 +5,7 @@ function ServiceLinks() {
   return (
     <div className='xl:flex flex-col gap-8 hidden'>
         <FooterNote text="services" />
-        <ul className='flex flex-col gap-3 text-sm text-gray-600 font-bold'>
+        <ul className='flex flex-col gap-5 text-sm text-gray-600 font-bold'>
             <li>
                 <NavLink to="about">About us</NavLink>
             </li>
