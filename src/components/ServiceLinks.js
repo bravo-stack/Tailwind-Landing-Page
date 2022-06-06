@@ -7,16 +7,16 @@ function ServiceLinks() {
         <FooterNote text="services" />
         <ul className='flex flex-col gap-5 text-sm text-gray-600 font-bold'>
             <li>
-                <NavLink to="about">About us</NavLink>
+                <NavLink to="coming">Digital Marketing</NavLink>
             </li>
             <li>
-                <NavLink to="contact">Contact us</NavLink>
+                <NavLink to="coming">Content Writing</NavLink>
             </li>
             <li>
-                <NavLink to="coming">Careers</NavLink>
+                <NavLink to="coming">SEO for Business</NavLink>
             </li>
             <li>
-                <NavLink to="coming">Blog</NavLink>
+                <NavLink to="coming">Product Design</NavLink>
             </li>
         </ul>
     </div>
