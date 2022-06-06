@@ -1,0 +1,22 @@
+{
+    "testimonial": [
+        {
+            "image": "testimonial/team-image-1.png",
+            "message": "You guys made it so simple. Our current platform is so much faster and easier to work with than my old one.",
+            "name": "yosef paul",
+            "position": "Chief Technology Officer"
+        },
+        {
+            "image": "testimonial/team-image-2.png",
+            "message": "Simply the best. Better than all the rest. I’d recommend this product to Startups looking to grow organic users.",
+            "name": "Rita Sousa",
+            "position": "Chief Operations Officer"
+        },
+        {
+            "image": "testimonial/team-image-3.png",
+            "message": "Must have service for every startup that wants a successful Product. Plus their platform's super intuitive.",
+            "name": "Dan Peterson",
+            "position": "Chief Executive Officer"
+        }
+    ]
+}
