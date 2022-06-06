@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs"
 import Footer from "./components/Footer";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   const [navBarOpen, setNavBarOpen] = useState(false)
@@ -28,6 +29,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/coming" element={<ComingSoon />} />
           </Routes>
 
           <Footer />
