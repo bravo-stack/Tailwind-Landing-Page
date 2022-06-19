@@ -1,6 +1,21 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [TailwindCSS](https://tailwindcss.com/docs/installation), [Redux](https://redux-toolkit.js.org/tutorials/overview), et cetera.
+
+#####Live Demo<br> [landingpage.vercel.ap](https://tailwind-landing-page-five-gamma.vercel.app/)
+
+## Previews
+#####Home Layout
+![Home](src/assets/uiHome.png)
+
+#####Features Layout
+![Home](src/assets/uiFeatures.png)
+
+#####Testimonial Layout
+![Home](src/assets/uiTestimonial.png)
+
+#####Demo Layout
+![Home](src/assets/uiDemo.png)
 
 ## Available Scripts
 
